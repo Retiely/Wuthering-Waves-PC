@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext", //指定 ECMAScript 的目标版本，这里使用 “esnext” 是因为 vue-cli 内置的 webpack 会帮我们编译代码
+    "module": "esnext", //指定使用的模块规范
+    "strict": true, //是否开启严格模式
+    "jsx": "preserve", //指定 jsx 代码的生成
+    "baseUrl": ".",
+    "esModuleInterop": true, 
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true, 
+    "paths": {
+      "@/*": [
+        "src/*",
+        "public/*",
+        "build/*",
+        "node_modules/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
