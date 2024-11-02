@@ -1,5 +1,8 @@
 # project_wuwavepc
-
+### 2.0.3 version
+```
+https://github.com/Retiely/Wuthering-Waves-PC/releases/tag/2.0.3
+```
 ## Project setup
 ```
 npm install
